@@ -70,7 +70,7 @@ I had little to no difficulties with the rest of the project, except when I was 
 
 One of the optional features was to create a pattern that would change each time the game is played. I knew I had to use the Math.random() function, I just didn't know exactly how to implement it. So, I went to StackOverflow. I found the syntax for an array filled with random numbers each time the game starts.
 There was a problem with the code from StackOverflow, however. It used the indeces from 0-3. This is not what I needed, so I knew I had to change it so that it read "Math.random() \* 4 + 1 )" which eliminated the possibility of a zero.
-Overall, I did not encounter too many challenges in developing this project. It was a great refresher back into HTML, CSS, and Javascript after studying Java, C, and C++ for classes at SDSU. I found a lot of similarities between the languages, and am excited to see the more difficult side of the Big 3 Web-design languages.
+Overall, I did not encounter too many challenges in developing this project. It was a great refresher back into HTML, CSS, and Javascript after studying Java, C, and C++ for classes at SDSU. I found a lot of similarities between the languages, and I am excited to see the more difficult side of the Big 3 Web-design languages.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
