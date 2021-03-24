@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>simon!</h1>
+    <h2>
+       An Interactive Light and Sound Memory Game
+    </h2>
+    
+    <p>
+      Welcome to the game! To play, memorize the pattern and press the corresponding buttons. You can use color and/or sound to memorize the pattern easier!
+    </p>
+    <div>
+      <button id="startBtn" onclick="startGame()">ON</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">OFF</button>
+    </div>
+    
+    <div>
+      <button id="btn1" class="block top-left" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="btn3" class="block top-right" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+    </div>
+    <div> 
+      <button id="btn4" class="block bottom-left" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="btn2" class="block bottom-right" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+    </div>
+      <div class="block center">simon</div>
+    <script src="script.js"></script>
+      
+
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
