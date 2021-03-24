@@ -1,0 +1,115 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 1em;
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+
+h1 { 
+  font-family: Orbitron; 
+  margin: 0;
+  font-size: 80px;
+}
+h2 {
+  font-family: Orbitron;
+  margin: 0;
+}
+
+p {
+  font-family: Orbitron;
+}
+
+.block{
+  display:inline-block;
+  margin:20px;
+  width: 200px;
+  height: 200px;
+}
+.top-left{
+  cursor: pointer;
+  background: lightgreen;
+  border-radius: 0 0 100% 0;
+  transform:rotate(180deg);
+}
+#btn1:active, #btn1.lit {
+    background:green;
+}
+
+
+.bottom-right{
+  cursor: pointer;
+  background: lightblue;
+  border-radius: 0 0 100% 0;
+}
+#btn2:active, #btn2.lit {
+    background:blue;
+}
+
+
+.top-right{
+  cursor: pointer;
+  background: pink;
+  border-radius: 0 0 100% 0;
+  transform: rotate(-90deg);
+}
+#btn3:active, #btn3.lit {
+    background:red;
+}
+
+
+
+.bottom-left{
+  cursor: pointer;
+  background: lightyellow;
+  border-radius: 0 0 100% 0;
+  transform: rotate(90deg);
+}
+#btn4:active, #btn4.lit {
+    background:yellow;
+}
+
+
+
+.center{
+  width: 250px;
+  height:250px;
+  border-radius: 100%;
+  background: black;
+  position: relative;
+  top: -385px;
+  left: -2px;
+  line-height: 240px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Orbitron;
+}
+#startBtn{
+  cursor: pointer;
+  width:40px;
+  height: 40px;
+  border-radius:100%;
+  position:relative;
+  top:220px;
+  left:0px;
+  z-index:10;
+  text-align: center;
+}
+#stopBtn{
+  cursor: pointer;
+  width:40px;
+  height: 40px;
+  border-radius:100%;
+  position:relative;
+  top:220px;
+  left:0px;
+  z-index:10;
+  text-align:center;
+}
+
+.hidden {
+  display: none;
+}
+
