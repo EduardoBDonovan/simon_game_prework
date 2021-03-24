@@ -63,7 +63,7 @@ I also used "Web Dev Junkie" on YouTube since he has a lot of solid tutorials an
 
 The challenges I faced during this project were mainly just styling errors, with one challenge occuring when trying to implement an "optional" feature. Originally, I had thought my challenges were going to be with wiring since I started not knowing exactly how to do it, but quickly grew to figure those issues out.
 
-The first challenge was finding a font that would fit the aesthetic for the game. I tried to keep my design as similar to the original SIMON game as possible, so finding a font was difficult. I googled which font the SIMON game used, and found a similar font called "Obritron" on CSS fonts. It gave the code needed to create the font, and implemented that into my game.
+The first challenge was finding a font that would fit the aesthetic for the game. I tried to keep my design as similar to the original SIMON game as possible, so finding a font was difficult. I googled which font the SIMON game used, and found a similar font called "Obritron" on Google fonts. It gave the code needed to create the font, and implemented that into my game.
 
 The next challenge involved a styling error. I was trying to get the buttons lined up correctly and able to move with the page resizing. I overcame this with the "display: inline-block" line, and I broke up the buttons into rows. The top row's 2 buttons are inline and the bottom row's 2 buttons are inline and they fit together with a final inline statement calling on all the "blocks".
 I had little to no difficulties with the rest of the project, except when I was trying to implement an optional feature.
@@ -74,13 +74,13 @@ Overall, I did not encounter too many challenges in developing this project. It 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
-After completing this challenge, my main questions are mainly on the Javascript backend.
+After completing this challenge, my questions are mainly on the Javascript wiring. 
 I immediately started thinking of all the real-life applications that could come from this simple introduction to the big 3 web-design languages.
 
 I "Inspect"-ed quite a few of my favorite webpages to see the HTML for YouTube, Instagram, and the Google page when "CodePath" was searched. I found many commonalities between the HTML on those pages and mine in this project.
 The main difference was definitely the complexity of information being displayed. While taking Codepath's Cybersecurity course with SDSU, I knew I could search for many of the security defenses set in place for many of these websites for privacy. Being able to see and implement these are a huge curiosity of mine.
 
-In addition, I wondered how I would attach a Paypal or another form of payment to a website. Being able to make money off of a product or service increases the value of a website, so I am very curious in being able to set up a website for a shop or something of that nature.
+In addition, I wondered how I would attach a Paypal or another form of payment to a website. Being able to make money off of a product or service increases the value of a website, so I am very curious to be able to set up a website for a shop or something of that nature.
 
 There are a lot of other questions I could ask a professional, but it all seems to stem from a curiosity of the more complex side of web-design. I am incredibly eager to start learning and getting real world experience.
 
